@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="keywords" content="Pixel, Dot, Bit, OpenSea, NFT, Ethereum, Polygon">
+
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+  <script type="text/javascript" src="https://code.createjs.com/easeljs-0.7.1.min.js"></script>
+  <script src="js/mm.js"></script>
+  <script src="js/pixel-canvas.js"></script>
+  <script src="js/index.js"></script>
+
+  <title>Pixel Work 4-bit</title>
+</head>
+
+<body>
+  <header id="header" class="hide">
+    <div class="block">
+      <span class="huge">Pixel Work 4-bit</span><br>
+      よくきたな ドットえを アイするものよ！
+    </div>
+  </header>
+
+  <main id="main" class="hide">
+    <!-- メタマスク -->
+    <div id="mm-block" class="block-frame">
+      <div class="title">
+        <span class="large">Connect to MetaMask</span><br>
+      </div>
+      <span id="mm-message"></span><br>
+      <div id="mm-confirm" class="window-frame">
+        <span id="mm-yes" class="large tap">はい</span><br>
+        <span id="mm-no" class="large tap">いいえ</span>
+      </div>
+      <p><span id="mm-response"></span></p>
+    </div>
+
+    <!-- ミント -->
+    <div id="mint-block" class="block-frame">
+      <div class="title">
+        <span class="large">ミント</span><br>
+      </div>
+      おヌシの リキサクを ミントするのダ！<br>
+
+      <canvas id="mint-canvas" class="tap" width="307" height="307"></canvas><br>
+      <canvas id="work-canvas" class="hide"></canvas>
+      <input id="mint-file-input" class="hide" type="file" accept="image/*">
+
+      <span id="mint-message">このドットえを ミントするのダな？</span><br>
+      <div id="mint-confirm" class="window-frame">
+        <span id="mint-yes" class="large tap">はい</span><br>
+        <span id="mint-no" class="large tap">いいえ</span>
+      </div>
+      <p><span id="mint-response"></span></p>
+    </div>
+
+    <div class="block-space"></div>
+
+    <!-- えつらん -->
+    <div class="block-frame">
+      <div class="title">
+        <span class="large">ギャラリー</span><br>
+      </div>
+
+      ここでは みなのサクヒンを カンショウできるゾ！<br>
+      <canvas id="gallery-canvas" class="tap" width="307" height="307"></canvas><br>
+      <span class="large" id="gallery-token-info"></span>
+      <img class="icon" src="img/openseax3.png"> OpenSeaへとぶと いちらんを みられるゾ！<br>
+      <div class="window-frame">        
+        <a id="link-opensea" href="" target="_blank"><span class="large">とぶ！</span></a>
+      </div>
+    </div>
+
+    <div class="block-space"></div>
+
+    <!-- ヘルプ -->
+    <div class="block-frame">
+      <div class="title">
+        <span class="large">ヘルプ</span><br>
+      </div>
+     ・ＰＣの Chromeブラウザが すいしょうだゾ！<br>
+     ・ミントできる ガゾウは 16ショクまでだゾ！<br>
+     ・<a href="https://omochi-bigaku.com/metamask-connect-matic-mainnet/" target="_blank">Polygonセッテイは【ココ】がわかりやすいゾ！</a><br>
+     ・ＮＦＴは Polygonチェーンに ミントされるゾ！<br>
+     ・ミントには ガスだい(MATIC)が ひつようだゾ！<br>
+     ・コウジョ リョウゾクに ハンしては ダメだゾ！<br>
+     ・タシャの ドットえを トウヨウしては ならぬゾ！<br>
+    </div>
+  </main>
+
+  <footer id="footer" class="hide">
+    <div class="block">
+      <a href="https://twitter.com/HakumaiDev" target="_blank"><img src="img/twitterx3.png"></a><br>
+      <span>2021 Hakumai Iida all rights reserved.</span>
+    </div>
+  </footer>
+
+</body>
+</html>

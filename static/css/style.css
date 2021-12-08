@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "dotlike";
+  src: url("/font/PixelMplus10-Regular.woff") format("woff"),
+       url("http://www7.plala.or.jp/hakumai/pw4b/font/PixelMplus10-Regular.woff") format("woff");
+}
+
+body {
+  font-size: 24px;
+  font-family: "dotlike";
+  color: #113;
+
+  line-height: 1.6em;
+  vertical-align: middle;
+
+  background-color: #ccf;
+
+  max-width: 640px;
+  margin: auto;
+}
+
+header {
+}
+
+main {
+}
+
+footer {
+  margin-top:16px;
+}
+
+.hide {
+  display: none;
+}
+
+.block {
+  text-align: center;
+
+  padding: 12px;
+}
+
+.block-frame {
+  text-align: center;
+  border: 2px solid #113;
+  border-radius: 4px;
+
+  padding: 12px;
+}
+
+.block-space {
+  height: 32px;
+}
+
+.window-frame {
+  background-color: #bbe;
+  text-align: left;
+
+  line-height: 1.8em;
+
+  border: 4px solid #113;
+  border-radius: 4px;
+
+  padding: 8px 0px 6px 64px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+
+  max-width: 224px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  border: 2px solid #113;
+  border-radius: 4px;
+
+  padding: 4px;
+  margin-bottom: 8px;
+
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.huge {
+  font-size: 48px;
+}
+
+.large {
+  font-size: 32px;
+}
+
+.icon {
+  width: 45px;
+  height: 45px;
+  margin-bottom: 8px;
+}
+
+.tap {
+  cursor: pointer;
+}

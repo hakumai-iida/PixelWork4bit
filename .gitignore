@@ -1,0 +1,22 @@
+# 不要フォルダ
+_contract_check/
+_resource/
+_sample/
+00_BackUp/
+
+build/
+node_modules/
+test/
+
+# 不要ファイル
+_00_memo.txt
+
+package-lock.json
+
+mumbai_ethereum_address.txt
+mumbai_infura_path.txt
+mumbai_private_key.txt
+
+polygon_ethereum_address.txt
+polygon_infura_path.txt
+polygon_private_key.txt
