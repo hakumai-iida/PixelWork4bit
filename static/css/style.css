@@ -1,7 +1,7 @@
 @font-face {
   font-family: "dotlike";
-  src: url("/font/PixelMplus10-Regular.woff") format("woff"),
-       url("http://www7.plala.or.jp/hakumai/pw4b/font/PixelMplus10-Regular.woff") format("woff");
+  src: url("./font/PixelMplus10-Regular.woff") format("woff"),
+       url("/font/PixelMplus10-Regular.woff") format("woff");
 }
 
 body {
